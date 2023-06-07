@@ -9,7 +9,7 @@ while True:
     num = lista.append(int(input('Digite um valor: ')))
     opcao = ' '
     while opcao not in 'SN':
-        opcao = str(input(('Deseja continuar [S/N]'))).strip().upper()[0]
+        opcao = str(input('Deseja continuar [S/N]')).strip().upper()[0]
     if opcao == 'N':
         break
     
